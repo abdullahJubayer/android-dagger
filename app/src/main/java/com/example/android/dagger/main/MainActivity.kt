@@ -32,10 +32,10 @@ import javax.inject.Inject
 class MainActivity : AppCompatActivity() {
 
     @Inject
-    private lateinit var mainViewModel: MainViewModel
+    lateinit var mainViewModel: MainViewModel
 
     @Inject
-    private lateinit var userManager: com.example.android.dagger.user.UserManager
+    lateinit var userManager: com.example.android.dagger.user.UserManager
 
     /**
      * If the User is not registered, RegistrationActivity will be launched,
